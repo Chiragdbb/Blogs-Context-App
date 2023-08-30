@@ -1,1 +1,1 @@
-# React + Tailwind + Vite Starter pack
+# Blogs Context App
