@@ -4,10 +4,11 @@ import Loader from "./Loader";
 import Card from "./Card";
 
 const Blogs = () => {
+	// step3: consume
 	const { posts, loading } = useContext(AppContext);
 
 	return (
-		<main className="w-[670px] mx-auto pt-20 pb-16">
+		<main className="w-[670px] mx-auto mt-6 pb-14">
 			{loading ? (
 				<Loader />
 			) : posts.length === 0 ? (
